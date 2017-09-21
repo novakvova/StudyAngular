@@ -4,4 +4,6 @@ import { Component } from '@angular/core';
   selector: 'my-app',
   templateUrl: 'app/app.component.html'
 })
-export class AppComponent  { name = 'Angular 2 templateUrl'; }
+export class AppComponent  {
+    pageHeader = 'Employee Details';
+}
