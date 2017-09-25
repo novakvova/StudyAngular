@@ -5,4 +5,10 @@
     <h2>{{getFullName()}}</h2>
     <img src="{{imagePath}}" />
     <my-employee></my-employee>
+    <button [disabled]='isDisabled'>
+        Click me
+    </button>
+    <span bind-innerHtml='pageHeader'></span>
+    <!--<div>{{badHtml}}</div>-->
+    <div [innerHtml]='badHtml'></div>
 </div>
