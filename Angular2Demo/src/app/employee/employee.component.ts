@@ -7,6 +7,7 @@
     //styles: ['table { color: blue; } ']
 })
 export class EmployeeComponent {
+    colSpan: number = 2;
     firstName: string = 'Tom';
     lastName: string = 'Hopkins';
     gender: string = 'Male';

@@ -1,15 +1,5 @@
 ﻿<div>
-    <h1>
-        {{pageHeader ? pageHeader: 'No header'}}
-    </h1>
-    <h2>{{getFullName()}}</h2>
-    <img src="{{imagePath}}" />
+
     <my-employee></my-employee>
-    <button [disabled]='isDisabled'>
-        Click me
-    </button>
-    <span bind-innerHtml='pageHeader'></span>
-    <!--<div>{{badHtml}}</div>-->
-    <div [innerHtml]='badHtml'></div>
-    <input type="text" id="inputId" value="Tom" />
+   
 </div>
