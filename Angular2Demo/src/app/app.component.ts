@@ -5,5 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: 'app/app.component.html'
 })
 export class AppComponent  {
-    pageHeader = 'Employee Details';
+    pageHeader: string = null;//'Employee Details';
+    imagePath: string = '/images/dog.jpg';
+    firstName: string = 'Peter';
+    lastName: string = 'Pen';
+    getFullName(): string {
+        return this.firstName + ' ' + this.lastName;
+    }
 }

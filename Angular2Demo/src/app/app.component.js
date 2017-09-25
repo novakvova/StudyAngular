@@ -8,8 +8,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this.pageHeader = 'Employee Details';
+        this.pageHeader = null; //'Employee Details';
+        this.imagePath = '/images/dog.jpg';
+        this.firstName = 'Peter';
+        this.lastName = 'Pen';
     }
+    AppComponent.prototype.getFullName = function () {
+        return this.firstName + ' ' + this.lastName;
+    };
     return AppComponent;
 }());
 AppComponent = __decorate([

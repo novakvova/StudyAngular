@@ -67,6 +67,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\dog.jpg" />
     <Content Include="packages.config" />
     <Content Include="bs-config.json" />
     <Content Include="package.json" />
