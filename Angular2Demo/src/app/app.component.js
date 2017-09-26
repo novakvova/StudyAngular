@@ -8,17 +8,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this.isBold = true;
-        this.fontSize = 30;
-        this.isItalic = true;
     }
-    AppComponent.prototype.addStyles = function () {
-        var styles = {
-            'font-weight': this.isBold ? 'bold' : 'normal',
-            'font-style': this.isItalic ? 'italic' : 'normal',
-            'font-size.px': this.fontSize
-        };
-        return styles;
+    AppComponent.prototype.onClickMe = function () {
+        console.log('Button Clicked');
     };
     return AppComponent;
 }());
