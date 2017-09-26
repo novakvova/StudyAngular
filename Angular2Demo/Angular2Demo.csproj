@@ -76,6 +76,7 @@
     <Content Include="src\app\employee\employee.component.html" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
