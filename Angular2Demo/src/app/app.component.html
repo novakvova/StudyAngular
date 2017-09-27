@@ -1,5 +1,8 @@
-﻿<button (click)="onClickMe()">
-    Click Me
-</button>
-
-<my-employee></my-employee>
+﻿Name: <input [value]="name" type="text" 
+             (input)="name=$event.target.value" />
+<br />
+Your entered: {{name}}
+<br />
+Name: <input [(ngModel)]="name" />
+<br />
+Your entered: {{name}}
